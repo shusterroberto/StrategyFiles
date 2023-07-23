@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Services\Application.Services.csproj" />
+    <ProjectReference Include="..\Infrastructure.Repositories\Infrastructure.Repositories.csproj" />
+    <ProjectReference Include="..\StrategyFiles.Domain.Interfaces\StrategyFiles.Domain.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
