@@ -1,0 +1,19 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/StrategyFiles/Application.Api/bin/Debug/net6.0
+/StrategyFiles/Application.Api/obj
+/StrategyFiles/Application.Services/bin/Debug/net6.0
+/StrategyFiles/Application.Services/obj
+/StrategyFiles/Domain.Models/bin/Debug/net6.0
+/StrategyFiles/Domain.Models/obj
+/StrategyFiles/Infrastructure.Repositories/bin/Debug/net6.0
+/StrategyFiles/Infrastructure.Repositories/obj
+/StrategyFiles/StrategyFiles/bin/Debug/net6.0
+/StrategyFiles/StrategyFiles/obj
+/StrategyFiles/StrategyFiles.Domain.Interfaces/bin/Debug/net6.0
+/StrategyFiles/StrategyFiles.Domain.Interfaces/obj
+/.vs
+/StrategyFiles/.vs/StrategyFiles
+/StrategyFiles/.vs/ProjectEvaluation
