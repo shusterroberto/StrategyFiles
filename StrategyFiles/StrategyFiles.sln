@@ -7,19 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55A7BF8D-5EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D9009826-1062-414E-A064-973D5BD88131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyFiles.Domain.Models", "Domain.Models\StrategyFiles.Domain.Models.csproj", "{46155317-F58D-4E73-A1C8-A76888F43363}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyFiles.Domain.Models", "Domain.Models\StrategyFiles.Domain.Models.csproj", "{46155317-F58D-4E73-A1C8-A76888F43363}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyFiles.Domain.Interfaces", "StrategyFiles.Domain.Interfaces\StrategyFiles.Domain.Interfaces.csproj", "{D03C16D9-3F67-4A1E-9D4A-9090D9A48769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyFiles.Domain.Interfaces", "StrategyFiles.Domain.Interfaces\StrategyFiles.Domain.Interfaces.csproj", "{D03C16D9-3F67-4A1E-9D4A-9090D9A48769}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A0DD78E6-7914-43F3-BB9B-510531D3302F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "Application.Services\Application.Services.csproj", "{0ECA0325-4BFD-4B59-8BF3-302C4331BE34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Services", "Application.Services\Application.Services.csproj", "{0ECA0325-4BFD-4B59-8BF3-302C4331BE34}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6D85C3E4-0F02-4A80-85C8-875591D89D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Repositories", "Infrastructure.Repositories\Infrastructure.Repositories.csproj", "{A5F6315F-C646-4BC3-8CA5-D5810053B894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Repositories", "Infrastructure.Repositories\Infrastructure.Repositories.csproj", "{A5F6315F-C646-4BC3-8CA5-D5810053B894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Api", "Application.Api\Application.Api.csproj", "{E8B8F604-50E6-4AD9-AD1C-B58D3826CB50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Api", "Application.Api\Application.Api.csproj", "{E8B8F604-50E6-4AD9-AD1C-B58D3826CB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Web.Api", "Application.Web.Api\Application.Web.Api.csproj", "{B5F320C5-D93F-4BE7-A7CB-77A79C2B803F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{E8B8F604-50E6-4AD9-AD1C-B58D3826CB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B8F604-50E6-4AD9-AD1C-B58D3826CB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B8F604-50E6-4AD9-AD1C-B58D3826CB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F320C5-D93F-4BE7-A7CB-77A79C2B803F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F320C5-D93F-4BE7-A7CB-77A79C2B803F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F320C5-D93F-4BE7-A7CB-77A79C2B803F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F320C5-D93F-4BE7-A7CB-77A79C2B803F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{6D85C3E4-0F02-4A80-85C8-875591D89D54} = {55A7BF8D-5EA6-4A5C-B9D1-F0041861DF5A}
 		{A5F6315F-C646-4BC3-8CA5-D5810053B894} = {6D85C3E4-0F02-4A80-85C8-875591D89D54}
 		{E8B8F604-50E6-4AD9-AD1C-B58D3826CB50} = {A0DD78E6-7914-43F3-BB9B-510531D3302F}
+		{B5F320C5-D93F-4BE7-A7CB-77A79C2B803F} = {A0DD78E6-7914-43F3-BB9B-510531D3302F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05143AAE-7DF0-4018-9E56-4CC7D9E1BE21}
